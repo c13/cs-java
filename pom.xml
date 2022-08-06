@@ -23,7 +23,11 @@
             <url>file:///tmp/cdp_project_site</url>
         </site>
     </distributionManagement>
-    
+
+    <modules>
+        <module>server</module>
+        <module>webapp</module>
+    </modules>
 
     <build>
         <plugins>
